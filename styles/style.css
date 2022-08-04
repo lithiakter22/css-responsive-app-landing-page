@@ -8,5 +8,64 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
 
 }
+/* ==================
+
+common css 
+===================*/
+img{
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    flex-wrap: wrap;
+    
+
+}
+.container-img{
+    width:60% ;
+}
+
+
+.container-left{
+    margin-right: 50px;
+}
+.container>div{
+    width: 50%;
+}
+.primary-button{ 
+      outline: 0;
+      border: 0;
+      padding: 15px 20px;
+      background-image:linear-gradient(90deg, #c79141,#e3a446); 
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 7px 0 #a16916 ;
+      position: relative;
+      top: 0;
+
+}
+@media (max-width:576px){    
+    
+    .container > div{
+        width: 100%;
+    }
+}
+    
+@media (max-width:768px){    
+    
+    .container > div{
+        width: 100%;
+    }
+}
+    
